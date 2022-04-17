@@ -1,0 +1,28 @@
+.TodoCounter {
+  font-size: 24px;
+  text-align: center;
+  margin: 0;
+  padding:  0 48px;
+  color: #fff;
+}
+
+.progressBar{
+  height: 25px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 5%;
+
+}
+
+.progress{
+  background-color: #634fe7;
+  display: flex;
+  align-self: flex-start;
+  margin: 0;
+}
+.progress>p{
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 1vh;
+}

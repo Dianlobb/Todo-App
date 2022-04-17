@@ -1,0 +1,114 @@
+form {
+  width: 90%;
+  max-width: 300px;
+  background-color: #fff;
+  padding: 33px 40px;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  border-radius: 41px;
+background: linear-gradient(145deg, #ffffff, #e6e6e6);
+box-shadow:  2px 2px 7px #d9d9d9,
+             -2px -2px 7px #ffffff;
+  
+}
+
+label {
+  text-align: center;
+  font-weight: bold;
+  color: #1e1e1f;
+  margin-bottom: 26px;
+  font-size: 2.5vh;
+}
+
+textarea {
+  background-color: #f9fbfc;
+  border: 2px, solid #202329;
+  border-radius: 2px;
+  box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.25);
+  color: #1e1e1f;
+  font-size: 20px;
+  text-align: center;
+  padding: 12px;
+  height: 96px;
+  max-width: calc(100%-25px);
+  resize:vertical;
+}
+
+textarea::placeholder {
+  color: #a5a5a5;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+textarea:focus {
+  outline-color: #61dafa;
+}
+
+.TodoForm-buttonContainer {
+  margin-top: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.TodoForm-button {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  color: #202329;
+  font-weight: 400;
+  width: 120px;
+  height: 48px;
+  border-radius: 2px;
+  border: none;
+  font-family: "Montserrat";
+}
+
+.TodoForm-button-add  {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 12px 24px;
+  border: 1px solid #378da3;
+  border-radius: 8px;
+  background: #5ae7ff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#5ae7ff), to(#378da3));
+  background: -moz-linear-gradient(top, #5ae7ff, #378da3);
+  background: linear-gradient(to bottom, #5ae7ff, #378da3);
+  -webkit-box-shadow: #5ef1ff 0px 0px 0px 0px;
+  -moz-box-shadow: #5ef1ff 0px 0px 0px 0px;
+  box-shadow: #5ef1ff 0px 0px 0px 0px;
+  text-shadow: #276575 1px 2px 1px;
+  font: normal normal bold 20px arial;
+  color: #ffffff;
+  text-decoration: none;
+}
+.TodoForm-button-add:hover,
+.TodoForm-button-add:focus {
+  border: 1px solid #4ec9e9;
+  background: #6cffff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#6cffff), to(#42a9c4));
+  background: -moz-linear-gradient(top, #6cffff, #42a9c4);
+  background: linear-gradient(to bottom, #6cffff, #42a9c4);
+  color: #ffffff;
+  text-decoration: none;
+}
+.TodoForm-button-add:active {
+  background: #378da3;
+  background: -webkit-gradient(linear, left top, left bottom, from(#378da3), to(#378da3));
+  background: -moz-linear-gradient(top, #378da3, #378da3);
+  background: linear-gradient(to bottom, #378da3, #378da3);
+}
+
+
+
+
+
+
+
+.TodoForm-button-cancel {
+  background: transparent;
+  font: normal normal bold 20px arial;
+  }

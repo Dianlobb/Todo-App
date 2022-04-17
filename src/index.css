@@ -5,6 +5,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to right top, #a7f0e6, #25d5ed, #00b4ff, #008bff, #634fe7);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#root {
+  margin: 0 24px;
+  position: relative;
+  min-height: 100vh;
 }
 
 code {
